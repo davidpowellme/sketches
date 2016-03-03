@@ -13,16 +13,17 @@ nav {
     float: left;
     list-style: none; }
     nav ul li {
-      display: inline-block; }
+      display: inline-block;
+      padding: 0 0.25em; }
     nav ul a {
       color: #888;
       text-decoration: none; }
 
 header {
   background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
-  background-size: cover;
   padding: 4em; }
   header h1 {
+    color: #fff;
     text-align: center; }
 
 main {
@@ -30,5 +31,37 @@ main {
   width: 95%; }
   main section {
     padding: 1em; }
+
+.pricing article > div {
+  padding: 0.25em 1em; }
+.pricing .p1 {
+  background: #519251; }
+.pricing .p2 {
+  background: #2C4985; }
+.pricing .p3 {
+  background: #000; }
+.pricing .p1,
+.pricing .p2,
+.pricing .p3 {
+  color: #fff;
+  text-align: center; }
+  .pricing .p1 p,
+  .pricing .p2 p,
+  .pricing .p3 p {
+    font-size: 7em; }
+.pricing article > ul {
+  background: #F1F1F1;
+  list-style: none;
+  padding: 1em; }
+  .pricing article > ul li {
+    text-align: center; }
+
+footer {
+  background: #000;
+  color: #888888;
+  padding: 2em 3em;
+  text-align: center; }
+  footer a {
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

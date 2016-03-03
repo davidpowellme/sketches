@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 }
 
+// navigation
+
 nav {
 	overflow: hidden;
 	padding: 1em 2em;
@@ -19,6 +21,7 @@ nav {
 
 		li {
 			display: inline-block;
+			padding: 0 0.25em;
 		}
 
 		 a {
@@ -27,15 +30,21 @@ nav {
 		}
 	}
 }
+
+// header
+
 header {
 	background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
-	background-size: cover;
 	padding: 4em;
 
 	h1 {
+		color: #fff;
 		text-align: center;
 	}
 }
+
+// main
+
 main {
 	margin: 0 auto;
 	width: 95%;
@@ -45,10 +54,59 @@ main {
 	}
 }
 
+// pricing
+
+.pricing {
+	
+
+	article > div {
+		padding: 0.25em 1em;
+	}
+
+	.p1 {background: #519251;}
+
+	.p2 {background: #2C4985;}
+
+	.p3 {background: #000;}
+
+	.p1,
+	.p2,
+	.p3 {
+		color: #fff;
+		text-align: center;
+
+		p {
+			font-size: 7em;
+		}
+	}
+
+	article > ul {
+		background: #F1F1F1;
+		list-style: none;
+		padding: 1em;
+
+		li {
+			text-align: center;
+		}
+	}
+}
+
+// features
 
 
 
+// footer
 
+footer {
+	background: #000;
+	color: #888888;
+	padding: 2em 3em;
+	text-align: center;
+
+	a {
+		color: #fff;
+	}
+}
 
 
 

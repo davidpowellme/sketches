@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	overflow: hidden;
+	padding: 1em 2em;
+
+	> a {
+		display: block;
+	}
+	img {
+		float: left;
+		width: 10em;
+	}
+	ul {
+		float: left;
+		list-style: none;
+
+		li {
+			display: inline-block;
+		}
+
+		 a {
+			color: #888;
+			text-decoration: none;
+		}
+	}
+}
+header {
+	background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
+	background-size: cover;
+	padding: 4em;
+
+	h1 {
+		text-align: center;
+	}
+}
+main {
+	margin: 0 auto;
+	width: 95%;
+
+	section {
+		padding: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

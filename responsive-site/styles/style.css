@@ -21,7 +21,7 @@ nav {
 
 header {
   background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
-  padding: 4em; }
+  padding: 20% 0; }
   header h1 {
     color: #fff;
     text-align: center; }
@@ -51,13 +51,24 @@ main {
 .pricing article > ul {
   background: #F1F1F1;
   list-style: none;
-  padding: 1em;
+  padding: 0 1em;
   border: 1px solid #888; }
   .pricing article > ul li {
     border-bottom: 1px solid #888;
     margin: 0 -1em;
-    padding: 1.5em 2em;
+    padding: 1em;
     text-align: center; }
+    .pricing article > ul li:last-child {
+      background: #fff;
+      border-bottom: none;
+      padding: 2em 0; }
+    .pricing article > ul li a {
+      border: 1px solid #888;
+      border-radius: 4em;
+      color: #000;
+      font-weight: bold;
+      padding: 1em 2em;
+      text-decoration: none; }
 
 footer {
   background: #000;

@@ -57,11 +57,6 @@ main {
 // pricing
 
 .pricing {
-	
-
-	article > div {
-		padding: 0.25em 1em;
-	}
 
 	.p1 {background: #519251;}
 
@@ -73,9 +68,10 @@ main {
 	.p2,
 	.p3 {
 		color: #fff;
+		padding: 0.5em 1em;
 		text-align: center;
 
-		p {
+		.price {
 			font-size: 7em;
 		}
 	}

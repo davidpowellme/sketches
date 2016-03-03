@@ -68,22 +68,32 @@ main {
 	.p2,
 	.p3 {
 		color: #fff;
-		padding: 0.5em 1em;
 		text-align: center;
-
-		.price {
-			font-size: 7em;
+		
+		.plan {
+			font-size: 1em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
 		}
-	}
+		.price {
+			font-size: 6em;
+		}
+		.term {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.2em;
+			text-transform: uppercase;
+		}
 
+	}
 	article > ul {
 		background: #F1F1F1;
 		list-style: none;
 		padding: 0 1em;
-		border: 1px solid #888;
+		border: 0.5px solid #5B686E;
 
 		li {
-			border-bottom: 1px solid #888;
+			border-bottom: 0.5px solid #888;
+			color: #5B686E;
 			margin: 0 -1em;
 			padding: 1em;
 			text-align: center;
@@ -99,7 +109,7 @@ main {
 				border-radius: 4em;
 				color: #000;
 				font-weight: bold;
-				padding: 1em 2em;
+				padding: 0.5em 1em;
 				text-decoration: none;
 			}
 		}

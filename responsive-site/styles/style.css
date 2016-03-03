@@ -51,8 +51,12 @@ main {
 .pricing article > ul {
   background: #F1F1F1;
   list-style: none;
-  padding: 1em; }
+  padding: 1em;
+  border: 1px solid #888; }
   .pricing article > ul li {
+    border-bottom: 1px solid #888;
+    margin: 0 -1em;
+    padding: 1.5em 2em;
     text-align: center; }
 
 footer {

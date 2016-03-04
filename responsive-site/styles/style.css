@@ -103,6 +103,9 @@ footer {
   footer a {
     color: #fff; }
 
+header.contact {
+  background: #2E4A83; }
+
 @media (min-width: 479px) {
   header h1 {
     font-size: 3em; } }

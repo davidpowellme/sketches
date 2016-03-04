@@ -123,6 +123,7 @@ form {
   width: 90%; }
   form input[type="text"],
   form input[type="email"] {
+    font-weight: normal;
     height: 2em;
     margin: 1em auto;
     width: 100%; }

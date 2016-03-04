@@ -21,11 +21,12 @@ nav {
 
 header {
   background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
-  padding: 20% 0; }
+  padding: 15% 0; }
   header h1 {
     color: #fff;
+    font-size: 2.3em;
     font-weight: normal;
-    text-shadow: 1px 1px #000;
+    text-shadow: 2px 2px #000;
     text-align: center; }
 
 main {
@@ -54,7 +55,8 @@ main {
   .pricing .p1 .price,
   .pricing .p2 .price,
   .pricing .p3 .price {
-    font-size: 6em; }
+    font-size: 6em;
+    font-weight: 300; }
   .pricing .p1 .term,
   .pricing .p2 .term,
   .pricing .p3 .term {
@@ -85,10 +87,12 @@ main {
       text-decoration: none; }
 
 .features h2 {
-  font-size: 1.3em;
-  font-weight: normal;
+  font-size: 1.25em;
+  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase; }
+.features p {
+  line-height: 1.6em; }
 
 footer {
   background: #000;
@@ -97,5 +101,35 @@ footer {
   text-align: center; }
   footer a {
     color: #fff; }
+
+@media (min-width: 479px) {
+  header h1 {
+    font-size: 3em; } }
+@media (min-width: 767px) {
+  header h1 {
+    font-size: 3em; }
+
+  main {
+    margin: 0 auto;
+    width: 90%; }
+
+  .pricing article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5em;
+    width: 30%; }
+
+  .features article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5em;
+    width: 45%; } }
+@media (min-width: 979px) {
+  header {
+    padding: 10% 0; }
+
+  main {
+    margin: 0 auto;
+    width: 58em; } }
 
 /*# sourceMappingURL=style.css.map */

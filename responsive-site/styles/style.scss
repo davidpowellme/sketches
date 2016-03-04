@@ -35,12 +35,13 @@ nav {
 
 header {
 	background: url(https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=90830a269ceb1732100847d54641d9ad) 0 0 no-repeat;
-	padding: 20% 0;
+	padding: 15% 0;
 
 	h1 {
 		color: #fff;
+		font-size: 2.3em;
 		font-weight: normal;
-		text-shadow: 1px 1px #000;
+		text-shadow: 2px 2px #000;
 		text-align: center;
 	}
 }
@@ -79,6 +80,7 @@ main {
 		}
 		.price {
 			font-size: 6em;
+			font-weight: 300;
 		}
 		.term {
 			color: rgba(255, 255, 255, 0.5);
@@ -122,10 +124,14 @@ main {
 
 .features {
 	h2 {
-		font-size: 1.3em;
-		font-weight: normal;
+		font-size: 1.25em;
+		font-weight: 500;
 		letter-spacing: 2px;
 		text-transform: uppercase;
+	}
+
+	p {
+		line-height: 1.6em;
 	}
 }
 
@@ -142,7 +148,51 @@ footer {
 	}
 }
 
+// Responsive Styles
+@media (min-width: 479px) {
+	header h1 {
+		font-size: 3em;
+	}
+}
 
+@media (min-width: 767px) {
+	
+	header {
+
+		h1 {
+			font-size: 3em;
+		}
+	}
+
+	main {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.pricing article {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0.5em;
+		width: 30%;
+	}
+
+	.features article {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0.5em;
+		width: 45%;
+	}
+}
+
+@media (min-width: 979px) {
+	header {
+		padding: 10% 0;
+	}
+	main {
+		margin: 0 auto;
+		width: 58em;
+	}
+}
 
 
 

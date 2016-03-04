@@ -3,7 +3,8 @@
 
 nav {
   overflow: hidden;
-  padding: 1em 2em; }
+  padding: 1em 2em;
+  line-height: 1em; }
   nav > a {
     display: block; }
   nav img {
@@ -104,18 +105,31 @@ footer {
     color: #fff; }
 
 header.contact {
-  background: #2E4A83; }
+  background: #2E4A83;
+  padding: 10%; }
+  header.contact h1 {
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase; }
 
 form {
-  width: 90%;
-  margin: 0 auto; }
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 1em;
+  width: 90%; }
   form input[type="text"],
   form input[type="email"] {
-    width: 90%;
-    margin: 0 auto; }
+    height: 2em;
+    margin: 1em auto;
+    width: 100%; }
   form textarea {
-    width: 90%;
-    height: 8em; }
+    height: 10em;
+    margin: 1em auto;
+    width: 100%; }
   form input[type="submit"] {
     background: transparent;
     border: 1px solid #d9d9d9;
@@ -124,6 +138,9 @@ form {
     font-weight: bold;
     padding: 0.5em 1em;
     text-decoration: none; }
+
+aside p:first-child {
+  font-weight: bold; }
 
 @media (min-width: 479px) {
   header h1 {

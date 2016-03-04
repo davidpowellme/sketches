@@ -7,6 +7,7 @@
 nav {
 	overflow: hidden;
 	padding: 1em 2em;
+	line-height: 1em;
 
 	> a {
 		display: block;
@@ -155,21 +156,37 @@ footer {
 
 header.contact {
 	background: #2E4A83;
+	padding: 10%;
+
+	h1 {
+		font-size: 1.7em;
+		letter-spacing: 2px;
+		margin: 0 auto;
+		width: 90%;
+		text-align: center;
+		text-shadow: none;
+		text-transform: uppercase;
+	}
 }
 
 form {
-	width: 90%;
+	font-weight: bold;
 	margin: 0 auto;
+	padding: 1em;
+	width: 90%;
 
 	input[type="text"],
 	input[type="email"] {
-		width: 90%;
-		margin: 0 auto;
+		height: 2em;
+		margin: 1em auto;
+		width: 100%;
 	}
 	
 	textarea {
-		width: 90%;
-		height: 8em;
+		height: 10em;
+		margin: 1em auto;
+		width: 100%;
+		
 	}
 
 	input[type="submit"] {
@@ -182,6 +199,10 @@ form {
 		text-decoration: none;
 	}
 }
+aside p:first-child {
+	font-weight: bold;
+}
+
 
 // Responsive Styles
 

@@ -24,6 +24,8 @@ header {
   padding: 20% 0; }
   header h1 {
     color: #fff;
+    font-weight: normal;
+    text-shadow: 1px 1px #000;
     text-align: center; }
 
 main {
@@ -81,6 +83,12 @@ main {
       font-weight: bold;
       padding: 0.5em 1em;
       text-decoration: none; }
+
+.features h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
 
 footer {
   background: #000;

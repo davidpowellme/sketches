@@ -39,6 +39,8 @@ header {
 
 	h1 {
 		color: #fff;
+		font-weight: normal;
+		text-shadow: 1px 1px #000;
 		text-align: center;
 	}
 }
@@ -118,7 +120,14 @@ main {
 
 // features
 
-
+.features {
+	h2 {
+		font-size: 1.3em;
+		font-weight: normal;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
 
 // footer
 
